@@ -1,0 +1,20 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Codember challenges resolutions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "c01": "node ./challenge_01/index.js"
+  },
+  "keywords": [],
+  "author": "Fercho5656",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
+  }
+}
