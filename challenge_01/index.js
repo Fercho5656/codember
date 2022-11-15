@@ -732,5 +732,5 @@ const users = USERS
 
 const validUsers = users.filter(user => validProps.every(prop => prop in user))
 
-const solution = `${validUsers.length}@${validUsers.at(-1).usr}`
+const solution = `${validUsers.length}${validUsers.at(-1).usr}`
 console.log(solution)
