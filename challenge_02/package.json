@@ -1,0 +1,14 @@
+{
+  "name": "challenge_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node decode.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
