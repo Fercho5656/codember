@@ -8,7 +8,7 @@ const decode = (message) => {
         chars.push(word[i] + word[i + 1] + word[i + 2])
         i += 3
       }
-      if (word[i] === '9') {
+      else {
         chars.push('0' + word[i] + word[i + 1])
         i += 2
       }
