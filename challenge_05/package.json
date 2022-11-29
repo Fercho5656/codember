@@ -1,0 +1,14 @@
+{
+  "name": "challenge_05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node hungerGames.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
