@@ -1,4 +1,4 @@
-import hungerGames from './hungerGames.js'
+import { hungerGames, hungerGamesUsingMaths } from './hungerGames.js'
 
 const participants = [
   'Gorusuke',
@@ -117,4 +117,10 @@ const participants = [
   'CarlesSànchez'
 ]
 
+console.time('hungerGames iterando')
 console.log(hungerGames(participants))
+console.timeEnd('hungerGames iterando')
+
+console.time('hungerGames con matematicas')
+console.log(hungerGamesUsingMaths(participants))
+console.timeEnd('hungerGames con matematicas')
